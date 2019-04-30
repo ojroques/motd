@@ -1,0 +1,4 @@
+#!/bin/bash
+
+printf "\nuptime:\n"
+uptime -p | sed -e 's/^up /  /'
